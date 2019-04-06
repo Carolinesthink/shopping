@@ -1,0 +1,14 @@
+要在服务器下打开，不然$http会出错
+
+首先是钩子函数mounted:function(){
+	this 千万不要忘了，this的使用方法
+}
+methods:{
+	这里的方法要是想自动调用要把它写在狗子函数里，
+}
+el:"#app"的#号不要忘了
+$http要想用要先调用vue-resouce插件，$http是vue实例的对象，与后台交互这里主要是请求json文件
+v-on绑定事件
+
+删除增加替换数组元素用splice
+用v-for渲染数组元素用到slice，删除数组用splice
